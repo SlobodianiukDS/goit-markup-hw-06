@@ -26,8 +26,7 @@
           >
           <ul class="links-nav">
             <li class="links-nav-marg">
-              <a class="links-nav-text visited" href="./index.html"
-                >Студия</a>
+              <a class="links-nav-text visited" href="./index.html">Студия</a>
             </li>
             <li class="links-nav-marg">
               <a class="links-nav-text" href="./portfolio.html">Портфолио</a>
@@ -476,13 +475,17 @@
           </ul>
         </div>
         <div class="subscription">
-          <p class="subscr-foot-text">Подпишитесь на рассылку</p>
-          <form name="subscr-form" autocomplete="on" novalidate>
-            <input type="email" name="email" id="email" placeholder="E-mail">
-          <button type="submit" class="subscr-btn">Подписаться 
-            <span class="icon"><svg href="./images/icons.svg#icon-send"></svg>
-            </span>
-          </button>
+          <label class="subscr-foot-text" for="email">Подпишитесь на рассылку</label>
+          <form class="subscr-form" name="subscr-form" autocomplete="on" novalidate>
+            <input type="email" name="email" id="email" placeholder="E-mail" />
+            <button type="submit" class="subscr-btn">
+              Подписаться
+              <span
+                ><svg class="icon">
+                  <use href="./images/icons.svg#icon-send"></use>
+                </svg>
+              </span>
+            </button>
           </form>
         </div>
       </div>

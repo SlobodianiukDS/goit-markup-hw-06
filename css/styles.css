@@ -586,49 +586,85 @@ body {
 .soc-add-foot-bgc {
   background-color: rgba(255, 255, 255, 0.1);
 }
-.subscription{
+.subscription {
   margin-left: 92px;
   margin-top: 16px;
 }
-.subscr-foot-text{
+.subscr-foot-text {
+  display: block;
+
+  padding-bottom: 20px;
+
   font-weight: 700;
   font-size: 14px;
   line-height: 1.4;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-   color: #FFFFFF;
- 
+  color: #ffffff;
+
+  cursor: pointer;
 }
-.subscription input{
+.subscr-form {
+  display: flex;
+}
+.subscription input {
   width: 358px;
   height: 50px;
+  padding: 16px;
 
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
-
-
-  placeholder-color: rgba(255, 255, 255, 0.6);
+  color: var(--prymary-white-color);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: var(--background-color-night);
 }
-.subscr-btn{
+.subscription input:focus {
+  border: 1px solid #2196f3;
+}
+.subscr-form input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+.subscr-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 200px;
+  height: 50px;
+  margin-left: 12px;
 
   font-weight: 700;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.06em;
-  color: #FFFFFF;
+  color: var(--prymary-white-color);
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  cursor: pointer;
 }
-
-.subscr-btn .icon{
-width: 24px;
-height: 24px;
+.subscr-btn:hover,
+.subscr-btn:focus {
+  background-color: #188ce8;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
 }
-
-
+.subscr-btn .icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--prymary-white-color);
+}
+.subscr-btn span {
+  height: 24px;
+  margin-left: 10px;
+}
 /*========== footer ==========*/
 /* ========== index ==========*/
 
