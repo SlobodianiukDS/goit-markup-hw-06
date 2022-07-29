@@ -607,7 +607,7 @@ body {
 .subscr-form {
   display: flex;
 }
-.subscription input {
+.subscr-form-inp {
   width: 358px;
   height: 50px;
   padding: 16px;
@@ -621,7 +621,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: var(--background-color-night);
 }
-.subscription input:focus {
+.subscr-form-inp:focus {
   border: 1px solid #2196f3;
 }
 .subscr-form input::placeholder {
