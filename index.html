@@ -496,8 +496,7 @@
         </div>
       </div>
     </footer>
-    is-hidden
-    <div data-modal class="modal">
+    <div data-modal class="modal is-hidden">
       <div class="box-modal-form">
         <button data-modal-close class="modal-close-bt" type="button">x</button>
         <form class="modal-form" action="on" novalidate>
@@ -535,6 +534,21 @@
               </span>
             </div>
           </label>
+          <label
+            >Комментарий
+            <textarea
+              class="comments"
+              name="comments"
+              placeholder="Введите текст"
+            ></textarea>
+          </label>
+          <label class="box-agreement"
+            ><input class="agreement" type="checkbox" /><span
+              >Соглашаюсь с рассылкой и принимаю</span
+            >
+            <a class="Terms" href="">Условия договора</a>
+          </label>
+          <button class="modal-enter-bt" type="submit">Отправить</button>
         </form>
       </div>
     </div>
