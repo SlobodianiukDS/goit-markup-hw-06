@@ -22,6 +22,13 @@ img {
   display: block;
 }
 
+a,
+input,
+button,
+textarea{
+  outline: none;
+}
+
 /* мои доработки */
 html,
 body,
