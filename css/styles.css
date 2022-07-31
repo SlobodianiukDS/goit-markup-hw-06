@@ -941,8 +941,8 @@ body {
   top: 50%;
   transform: translateY(-50%);
 
-  width: 16px;
-  height: 14px;
+  width: 18px;
+  height: 18px;
 }
 .comments {
   display: block;
@@ -976,8 +976,7 @@ body {
   justify-content: center;
 
   margin: 30px auto 0;
-  width: 200px;
-  height: 50px;
+  padding: 10px 55px;
 
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -1030,6 +1029,7 @@ body {
 
   width: 16px;
   height: 16px;
+  margin-left: 12px;
 
   background-size: contain;
   background-origin: padding-box;
