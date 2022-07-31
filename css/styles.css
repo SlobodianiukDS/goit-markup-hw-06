@@ -981,7 +981,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1, 875;
+  line-height: 1.875;
   letter-spacing: 0.06em;
   color:var(--prymary-white-color);
   background: var(--accent-color);
