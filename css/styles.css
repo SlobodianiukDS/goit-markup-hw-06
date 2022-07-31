@@ -893,6 +893,7 @@ body {
   color: var(--prymary-text-color);
 }
 .icon-mod-position {
+  display: inline-block;
   position: relative;
 }
 .modal-form label {
