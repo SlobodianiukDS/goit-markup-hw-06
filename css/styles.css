@@ -250,6 +250,7 @@ body {
 }
 
 .benefits-li {
+  display: block;
   width: calc((100%-90px) / 4);
 }
 
