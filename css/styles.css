@@ -832,7 +832,7 @@ body {
 
 .modal.is-hidden .box-modal-form {
   opacity: 0;
-  transform: translate(-50%, -50%) scale(110%);
+  transform: translate(-50%, -50%) scale(1.1);
 }
 
 .box-modal-form {
@@ -840,7 +840,7 @@ body {
   left: 50%;
   top: 50%;
   opacity: 1;
-  transform: translate(-50%, -50%) scale(100%);
+  transform: translate(-50%, -50%) scale(1);
 
   width: 528px;
   padding: 40px;
