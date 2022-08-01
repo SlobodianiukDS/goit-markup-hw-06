@@ -26,8 +26,13 @@ img {
 
 a,
 input,
-button,
 textarea {
+  outline: none;
+}
+
+button {
+  font-family: inherit;
+  border: none;
   outline: none;
 }
 
@@ -155,9 +160,4 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
-
-button {
-  border: none;
-  outline: none;
 }

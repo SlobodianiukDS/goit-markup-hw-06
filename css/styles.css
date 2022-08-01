@@ -193,7 +193,6 @@ body {
   margin-right: auto;
   margin-top: 30px;
 
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -690,7 +689,6 @@ body {
   padding: 6px 22px;
   min-width: 72px;
 
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.875;
@@ -963,7 +961,6 @@ body {
   border-color: var(--accent-color);
 }
 .comments::placeholder {
-  font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.14;
@@ -977,7 +974,6 @@ body {
   margin: 30px auto 0;
   padding: 10px 55px;
 
-  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
