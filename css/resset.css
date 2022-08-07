@@ -26,23 +26,16 @@ img {
 
 a,
 input,
-<<<<<<< HEAD
 button,
-=======
->>>>>>> parent of 3753294 (1)
 textarea {
   outline: none;
 }
 
-<<<<<<< HEAD
-=======
 button {
   font-family: inherit;
   border: none;
   outline: none;
 }
-
->>>>>>> parent of 3753294 (1)
 /* мои доработки */
 html,
 body,
@@ -168,11 +161,3 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-<<<<<<< HEAD
-
-button {
-  border: none;
-  outline: none;
-}
-=======
->>>>>>> parent of 3753294 (1)
